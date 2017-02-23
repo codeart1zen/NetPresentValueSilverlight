@@ -1,0 +1,18 @@
+﻿<configuration>
+    <system.serviceModel>
+        <bindings>
+            <basicHttpBinding>
+                <binding name="BasicHttpBinding_ICalculationService" maxBufferSize="2147483647"
+                    maxReceivedMessageSize="2147483647">
+                    <security mode="None" />
+                </binding>
+            </basicHttpBinding>
+        </bindings>
+        <client>
+            <endpoint address="http://svcs.dotnetradar.info:1100/npvcalc/CalculationService.svc"
+                binding="basicHttpBinding" bindingConfiguration="BasicHttpBinding_ICalculationService"
+                contract="CalcService.ICalculationService" name="BasicHttpBinding_ICalculationService" />
+        </client>      
+
+    </system.serviceModel>
+</configuration>

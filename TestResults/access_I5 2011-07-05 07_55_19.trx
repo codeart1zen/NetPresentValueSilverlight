@@ -1,0 +1,64 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="cad78ac1-45bb-4742-bfc3-ada306e818f4" name="access@I5 2011-07-05 07:55:19" runUser="i5\access" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Local" id="c2210462-1db2-45f6-a804-84f20b4f0f7e">
+    <Description>These are default test settings for a local test run.</Description>
+    <Deployment enabled="false" runDeploymentRoot="access_I5 2011-07-05 07_55_19">
+      <DeploymentItem filename="C:\src\silverlight\Solution\3p\Microsoft.Practices.Unity.dll" />
+      <DeploymentItem filename="C:\src\silverlight\Solution\NPVCalculator.Services\bin\NPVCalculator.Services.dll" />
+    </Deployment>
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2011-07-05T07:55:19.6999919+10:00" queuing="2011-07-05T07:55:22.0201246+10:00" start="2011-07-05T07:55:22.1691331+10:00" finish="2011-07-05T07:55:23.4812081+10:00" />
+  <ResultSummary outcome="Completed">
+    <Counters total="5" executed="5" passed="5" error="0" failed="0" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="TestCalculateCashflowSeriesNPVSumsValues" storage="c:\src\silverlight\solution\npvcalculatorservicetests\bin\debug\npvcalculatorservicetests.dll" id="b6f802c6-a418-4c76-2621-e5f694d89dbf">
+      <Execution id="6590ed00-ca6e-4d8e-97f4-37a0d0052e92" />
+      <TestMethod codeBase="C:/src/silverlight/Solution/NPVCalculatorServiceTests/bin/Debug/NPVCalculatorServiceTests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="NPVCalculatorServiceTests.CalculationServiceTests, NPVCalculatorServiceTests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TestCalculateCashflowSeriesNPVSumsValues" />
+    </UnitTest>
+    <UnitTest name="TestCalculateSingleCashflowNPV" storage="c:\src\silverlight\solution\npvcalculatorservicetests\bin\debug\npvcalculatorservicetests.dll" id="11b14880-173d-3ba7-3759-82c9b789b18c">
+      <Execution id="f2ba2eda-3173-43b0-9c14-55bbe0a141b8" />
+      <TestMethod codeBase="C:/src/silverlight/Solution/NPVCalculatorServiceTests/bin/Debug/NPVCalculatorServiceTests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="NPVCalculatorServiceTests.CalculationServiceTests, NPVCalculatorServiceTests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TestCalculateSingleCashflowNPV" />
+    </UnitTest>
+    <UnitTest name="TestSetupNPVRangeCalculationReturnCorrectNumberOfCalculations" storage="c:\src\silverlight\solution\npvcalculatorservicetests\bin\debug\npvcalculatorservicetests.dll" id="4c83c891-d105-90cc-9192-b381e987570a">
+      <Execution id="b48e01a4-127e-4754-9616-142ce180e07d" />
+      <TestMethod codeBase="C:/src/silverlight/Solution/NPVCalculatorServiceTests/bin/Debug/NPVCalculatorServiceTests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="NPVCalculatorServiceTests.CalculationServiceTests, NPVCalculatorServiceTests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TestSetupNPVRangeCalculationReturnCorrectNumberOfCalculations" />
+    </UnitTest>
+    <UnitTest name="TestSetupNPVRangeCalculationStoresState" storage="c:\src\silverlight\solution\npvcalculatorservicetests\bin\debug\npvcalculatorservicetests.dll" id="3075b142-6f3b-e8ca-19a4-27c29bfb23dd">
+      <Execution id="49e9c183-ef15-4228-9510-32dfe8118cf8" />
+      <TestMethod codeBase="C:/src/silverlight/Solution/NPVCalculatorServiceTests/bin/Debug/NPVCalculatorServiceTests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="NPVCalculatorServiceTests.CalculationServiceTests, NPVCalculatorServiceTests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TestSetupNPVRangeCalculationStoresState" />
+    </UnitTest>
+    <UnitTest name="TestGetDate" storage="c:\src\silverlight\solution\npvcalculatorservicetests\bin\debug\npvcalculatorservicetests.dll" id="5e0d8c13-9e73-3bff-36f1-6f11593ac463">
+      <Execution id="a63af593-48ad-406e-b821-c69ed238594e" />
+      <TestMethod codeBase="C:/src/silverlight/Solution/NPVCalculatorServiceTests/bin/Debug/NPVCalculatorServiceTests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="NPVCalculatorServiceTests.CalendarServiceTests, NPVCalculatorServiceTests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TestGetDate" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="11b14880-173d-3ba7-3759-82c9b789b18c" executionId="f2ba2eda-3173-43b0-9c14-55bbe0a141b8" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="3075b142-6f3b-e8ca-19a4-27c29bfb23dd" executionId="49e9c183-ef15-4228-9510-32dfe8118cf8" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="4c83c891-d105-90cc-9192-b381e987570a" executionId="b48e01a4-127e-4754-9616-142ce180e07d" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="5e0d8c13-9e73-3bff-36f1-6f11593ac463" executionId="a63af593-48ad-406e-b821-c69ed238594e" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="b6f802c6-a418-4c76-2621-e5f694d89dbf" executionId="6590ed00-ca6e-4d8e-97f4-37a0d0052e92" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="f2ba2eda-3173-43b0-9c14-55bbe0a141b8" testId="11b14880-173d-3ba7-3759-82c9b789b18c" testName="TestCalculateSingleCashflowNPV" computerName="I5" duration="00:00:00.1173720" startTime="2011-07-05T07:55:22.2901400+10:00" endTime="2011-07-05T07:55:23.1231876+10:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="f2ba2eda-3173-43b0-9c14-55bbe0a141b8">
+    </UnitTestResult>
+    <UnitTestResult executionId="49e9c183-ef15-4228-9510-32dfe8118cf8" testId="3075b142-6f3b-e8ca-19a4-27c29bfb23dd" testName="TestSetupNPVRangeCalculationStoresState" computerName="I5" duration="00:00:00.1680862" startTime="2011-07-05T07:55:23.1371885+10:00" endTime="2011-07-05T07:55:23.3161987+10:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="49e9c183-ef15-4228-9510-32dfe8118cf8">
+    </UnitTestResult>
+    <UnitTestResult executionId="b48e01a4-127e-4754-9616-142ce180e07d" testId="4c83c891-d105-90cc-9192-b381e987570a" testName="TestSetupNPVRangeCalculationReturnCorrectNumberOfCalculations" computerName="I5" duration="00:00:00.0241566" startTime="2011-07-05T07:55:23.3231991+10:00" endTime="2011-07-05T07:55:23.3552009+10:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="b48e01a4-127e-4754-9616-142ce180e07d">
+    </UnitTestResult>
+    <UnitTestResult executionId="a63af593-48ad-406e-b821-c69ed238594e" testId="5e0d8c13-9e73-3bff-36f1-6f11593ac463" testName="TestGetDate" computerName="I5" duration="00:00:00.0112883" startTime="2011-07-05T07:55:23.3652015+10:00" endTime="2011-07-05T07:55:23.3822025+10:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="a63af593-48ad-406e-b821-c69ed238594e">
+    </UnitTestResult>
+    <UnitTestResult executionId="6590ed00-ca6e-4d8e-97f4-37a0d0052e92" testId="b6f802c6-a418-4c76-2621-e5f694d89dbf" testName="TestCalculateCashflowSeriesNPVSumsValues" computerName="I5" duration="00:00:00.0229694" startTime="2011-07-05T07:55:23.3902029+10:00" endTime="2011-07-05T07:55:23.4182045+10:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="6590ed00-ca6e-4d8e-97f4-37a0d0052e92">
+    </UnitTestResult>
+  </Results>
+</TestRun>

@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="95f257c0-cb6b-429b-bebb-2df16be2736f" name="so@WKSTATION 2011-03-14 01:18:05" runUser="wkstation\so" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Local" id="c2210462-1db2-45f6-a804-84f20b4f0f7e">
+    <Description>These are default test settings for a local test run.</Description>
+    <Deployment enabled="false" runDeploymentRoot="so_WKSTATION 2011-03-14 01_18_05">
+      <DeploymentItem filename="C:\src\VisualRisk\NPVCalculator\Solution\3p\Microsoft.Practices.Unity.dll" />
+      <DeploymentItem filename="C:\src\VisualRisk\NPVCalculator\Solution\NPVCalculator.Services\bin\NPVCalculator.Services.dll" />
+    </Deployment>
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2011-03-14T01:18:05.2118318+10:00" queuing="2011-03-14T01:18:05.2418335+10:00" start="2011-03-14T01:18:05.3168378+10:00" finish="2011-03-14T01:18:06.1968882+10:00" />
+  <ResultSummary outcome="Failed">
+    <Counters total="1" executed="1" error="0" failed="1" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" passed="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="TestCalculateCashflowSeriesNPVSumsValues" storage="c:\src\visualrisk\npvcalculator\solution\npvcalculatorservicetests\bin\debug\npvcalculatorservicetests.dll" id="b6f802c6-a418-4c76-2621-e5f694d89dbf">
+      <Execution id="c4c59913-c2d5-41e6-b9cd-7522db767f7e" />
+      <TestMethod codeBase="C:/src/VisualRisk/NPVCalculator/Solution/NPVCalculatorServiceTests/bin/Debug/NPVCalculatorServiceTests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="NPVCalculatorServiceTests.CalculationServiceTests, NPVCalculatorServiceTests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TestCalculateCashflowSeriesNPVSumsValues" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="b6f802c6-a418-4c76-2621-e5f694d89dbf" executionId="c4c59913-c2d5-41e6-b9cd-7522db767f7e" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="c4c59913-c2d5-41e6-b9cd-7522db767f7e" testId="b6f802c6-a418-4c76-2621-e5f694d89dbf" testName="TestCalculateCashflowSeriesNPVSumsValues" computerName="WKSTATION" duration="00:00:00.1335548" startTime="2011-03-14T01:18:05.4178436+10:00" endTime="2011-03-14T01:18:06.1428851+10:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="c4c59913-c2d5-41e6-b9cd-7522db767f7e">
+      <Output>
+        <ErrorInfo>
+          <Message>Assert.AreEqual failed. Expected:&lt;270&gt;. Actual:&lt;30.0&gt;. </Message>
+          <StackTrace>   at NPVCalculatorServiceTests.CalculationServiceTests.TestCalculateCashflowSeriesNPVSumsValues() in C:\src\VisualRisk\NPVCalculator\Solution\NPVCalculatorServiceTests\CalculationServiceTests.cs:line 88
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+  </Results>
+</TestRun>
